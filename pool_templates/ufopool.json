@@ -5,19 +5,19 @@
             {
                 "geo": "Europe",
                 "urls": [
-                    "pool.ufobject.com:4444"
+                    "pool.ufobject.com"
                 ]
             }
         ],
         "miners": {
             "ccminer": {
-                "ccurl": "stratum+tcp://%URL%",
+                "ccurl": "stratum+tcp://161.97.172.98:4444",
                 "ccalgo": "neoscrypt",
                 "ccpass": "x",
                 "ccuser": "%WAL%.%WORKER_NAME%"
             },
             "sgminer-gm": {
-                "url": "stratum+tcp://%URL%",
+                "url": "stratum+tcp://161.97.172.98:4444",
                 "algo": "neoscrypt",
                 "pass": "x",
                 "template": "%WAL%.%WORKER_NAME%",
